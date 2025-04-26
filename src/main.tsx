@@ -13,7 +13,7 @@ Amplify.configure({
     Cognito: {
       loginWith: {
         oauth: {
-          redirectSignIn: ["http://localhost:5173"],
+          redirectSignIn: ["http://localhost:5173" ],
           redirectSignOut: ["http://localhost:5173"],
           domain: "scalac-blogpost.auth.eu-central-1.amazoncognito.com",
           providers: ["Google"],
